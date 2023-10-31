@@ -8,7 +8,7 @@ public class ControladorRest {
 
     @GetMapping("/")
     public String saludar(){
-        return "Aqui va el texto que quiera mostrar";
+        return " :0 Aqui va el texto que quiera mostrar";
     }
 
     @GetMapping("/about")
